@@ -164,11 +164,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 1486167855}
   _carRb: {fileID: 1486167853}
   _springLenght: 0.1
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -193,7 +195,9 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _sideSlipStrength: 0.25
+  _sideSlipStrength: 1
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 3186371349880514504}
   _tireMass: 100
@@ -2100,11 +2104,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 1378344026}
   _springLenght: 0.25
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -2130,6 +2136,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.2
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 998390109}
   _tireMass: 100
@@ -2800,11 +2808,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 1378344026}
   _springLenght: 0.25
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -2830,6 +2840,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.2
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 2117991607}
   _tireMass: 100
@@ -3521,11 +3533,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 972281863}
   _springLenght: 0.15
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -3551,6 +3565,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.2
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 1429404742}
   _tireMass: 100
@@ -3757,11 +3773,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 1195169544}
   _springLenght: 0.25
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -3787,6 +3805,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.2
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 1160712535}
   _tireMass: 100
@@ -4585,11 +4605,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 972281863}
   _springLenght: 0.15
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -4615,6 +4637,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.2
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 1598772424}
   _tireMass: 100
@@ -4765,11 +4789,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 1195169544}
   _springLenght: 0.25
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -4795,6 +4821,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.2
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 474079867}
   _tireMass: 100
@@ -4872,6 +4900,114 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 80c3e930f57cf00419808fa0cbde1e4f, type: 3}
   m_PrefabInstance: {fileID: 576555317}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &587151352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 587151355}
+  - component: {fileID: 587151354}
+  - component: {fileID: 587151353}
+  - component: {fileID: 587151356}
+  m_Layer: 0
+  m_Name: Dirt
+  m_TagString: Dirt
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &587151353
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587151352}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8b6cecad473ac8a49b64c8847ba09164, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &587151354
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587151352}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &587151355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587151352}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 80, y: -0.95, z: 5}
+  m_LocalScale: {x: 25, y: 1, z: 25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &587151356
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587151352}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &601572289 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a8b72e53fddd264f9f7325bc415b0f4, type: 3}
@@ -5404,11 +5540,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 1486167855}
   _carRb: {fileID: 1486167853}
   _springLenght: 0.1
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -5433,7 +5571,9 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _sideSlipStrength: 0.3
+  _sideSlipStrength: 1
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 5536955650391494545}
   _tireMass: 100
@@ -6640,11 +6780,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 1195169544}
   _springLenght: 0.25
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -6670,6 +6812,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.15
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 1638370672}
   _tireMass: 100
@@ -8155,11 +8299,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 1486167855}
   _carRb: {fileID: 1486167853}
   _springLenght: 0.1
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -8184,7 +8330,9 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _sideSlipStrength: 0.25
+  _sideSlipStrength: 1
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 3579153382752599837}
   _tireMass: 100
@@ -8300,6 +8448,114 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897823893}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &928856078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 928856081}
+  - component: {fileID: 928856080}
+  - component: {fileID: 928856079}
+  - component: {fileID: 928856082}
+  m_Layer: 0
+  m_Name: Gravel
+  m_TagString: Gravel
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &928856079
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928856078}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: fdc5dc3c459dee847a87bc74126cef1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &928856080
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928856078}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &928856081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928856078}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 55, y: -0.95, z: 5}
+  m_LocalScale: {x: 25, y: 1, z: 25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &928856082
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928856078}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &934605839
 GameObject:
   m_ObjectHideFlags: 0
@@ -8379,6 +8635,114 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+--- !u!1 &938117728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 938117731}
+  - component: {fileID: 938117730}
+  - component: {fileID: 938117729}
+  - component: {fileID: 938117732}
+  m_Layer: 0
+  m_Name: Show
+  m_TagString: Snow
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &938117729
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938117728}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 32973cac2d65884459a41da134dd4f49, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &938117730
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938117728}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &938117731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938117728}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 105, y: -0.95, z: 5}
+  m_LocalScale: {x: 25, y: 1, z: 25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &938117732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938117728}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &968135898
 GameObject:
   m_ObjectHideFlags: 0
@@ -8411,6 +8775,114 @@ Transform:
   - {fileID: 814283720}
   m_Father: {fileID: 1579323643}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+--- !u!1 &968716818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 968716821}
+  - component: {fileID: 968716820}
+  - component: {fileID: 968716819}
+  - component: {fileID: 968716822}
+  m_Layer: 0
+  m_Name: Alphalt
+  m_TagString: Asphalt
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &968716819
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968716818}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6cf075af5584eea4d96bd549d6df46e0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &968716820
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968716818}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &968716821
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968716818}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 30, y: -0.95, z: 5}
+  m_LocalScale: {x: 25, y: 1, z: 25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &968716822
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968716818}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &972281861
 GameObject:
   m_ObjectHideFlags: 0
@@ -8521,7 +8993,12 @@ MonoBehaviour:
   - {fileID: 492393389}
   - {fileID: 354204503}
   _rb: {fileID: 972281863}
-  _steering: 0
+  _steeringCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   _engine: {fileID: 0}
   _gearbox: {fileID: 0}
   _carUI: {fileID: 0}
@@ -8591,11 +9068,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 1378344026}
   _springLenght: 0.25
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -8621,6 +9100,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.2
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 985748877}
   _tireMass: 100
@@ -9352,11 +9833,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 1486167855}
   _carRb: {fileID: 1486167853}
   _springLenght: 0.1
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -9381,7 +9864,9 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _sideSlipStrength: 0.3
+  _sideSlipStrength: 1
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 6963383372441227361}
   _tireMass: 100
@@ -9489,6 +9974,144 @@ Transform:
   - {fileID: 1977766501}
   m_Father: {fileID: 1745080665}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1119540013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119540014}
+  - component: {fileID: 1119540016}
+  - component: {fileID: 1119540015}
+  m_Layer: 5
+  m_Name: CarSpeedText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1119540014
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119540013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1922794566}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -500, y: 150}
+  m_SizeDelta: {x: 250, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1119540015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119540013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '100
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 87090c9e8ed054c409710d85dfca668c, type: 2}
+  m_sharedMaterial: {fileID: 5575220822229428592, guid: 87090c9e8ed054c409710d85dfca668c, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 75
+  m_fontSizeBase: 75
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1119540016
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119540013}
+  m_CullTransparentMesh: 1
 --- !u!1 &1137133719
 GameObject:
   m_ObjectHideFlags: 0
@@ -9676,11 +10299,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 1195169544}
   _springLenght: 0.25
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -9706,6 +10331,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.15
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 852436818}
   _tireMass: 100
@@ -9823,7 +10450,12 @@ MonoBehaviour:
   - {fileID: 567930127}
   - {fileID: 415160465}
   _rb: {fileID: 1195169544}
-  _steering: 0
+  _steeringCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   _engine: {fileID: 0}
   _gearbox: {fileID: 0}
   _carUI: {fileID: 0}
@@ -10951,7 +11583,12 @@ MonoBehaviour:
   - {fileID: 2139847518}
   - {fileID: 274191152}
   _rb: {fileID: 1378344026}
-  _steering: 0
+  _steeringCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   _engine: {fileID: 0}
   _gearbox: {fileID: 0}
   _carUI: {fileID: 0}
@@ -11207,7 +11844,12 @@ MonoBehaviour:
   - {fileID: 1476420316}
   - {fileID: 2032092455}
   _rb: {fileID: 1380872451}
-  _steering: 0
+  _steeringCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   _engine: {fileID: 0}
   _gearbox: {fileID: 0}
   _carUI: {fileID: 0}
@@ -11668,11 +12310,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 1380872451}
   _springLenght: 0.15
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve: []
@@ -11680,6 +12324,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.2
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 309298477}
   _tireMass: 100
@@ -11921,7 +12567,30 @@ MonoBehaviour:
   - {fileID: 1105804640}
   - {fileID: 632332968}
   _rb: {fileID: 1486167853}
-  _steering: 2.5
+  _steeringCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 3
+      inSlope: -0.118
+      outSlope: -0.118
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 25
+      value: 0.05
+      inSlope: -0.118
+      outSlope: -0.118
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   _engine: {fileID: 1486167858}
   _gearbox: {fileID: 1486167857}
   _carUI: {fileID: 1486167859}
@@ -11992,25 +12661,34 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 1
-      outSlope: 1
+      inSlope: 5
+      outSlope: 5
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.1
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.07119095
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 1
-      outSlope: 1
+      inSlope: 0.5555556
+      outSlope: 0.5555556
       tangentMode: 34
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.33333334
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _torqueOffset: 25000
+  _torqueOffset: 15000
 --- !u!114 &1486167859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12025,6 +12703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _currentGearText: {fileID: 1581240620}
   _currentRpmText: {fileID: 768277974}
+  _currentSpeedText: {fileID: 1119540015}
 --- !u!1 &1513655946
 GameObject:
   m_ObjectHideFlags: 0
@@ -13195,11 +13874,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 1380872451}
   _springLenght: 0.15
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve: []
@@ -13207,6 +13888,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.1
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 1115466959}
   _tireMass: 100
@@ -13399,11 +14082,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 972281863}
   _springLenght: 0.15
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -13429,6 +14114,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.2
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 892683478}
   _tireMass: 100
@@ -13982,11 +14669,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 972281863}
   _springLenght: 0.15
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -14012,6 +14701,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.2
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 1886786326}
   _tireMass: 100
@@ -14064,11 +14755,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 1380872451}
   _springLenght: 0.15
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve: []
@@ -14076,6 +14769,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.1
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 492236904}
   _tireMass: 100
@@ -14572,6 +15267,7 @@ RectTransform:
   m_Children:
   - {fileID: 1581240619}
   - {fileID: 768277973}
+  - {fileID: 1119540014}
   m_Father: {fileID: 212415947}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -14904,6 +15600,114 @@ Transform:
   - {fileID: 477278344}
   m_Father: {fileID: 2139847517}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1997342062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1997342065}
+  - component: {fileID: 1997342064}
+  - component: {fileID: 1997342063}
+  - component: {fileID: 1997342066}
+  m_Layer: 0
+  m_Name: Ice
+  m_TagString: Ice
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1997342063
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997342062}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ae48e1d74c5b7a3429b8081bad1c5289, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1997342064
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997342062}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1997342065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997342062}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 130, y: -0.95, z: 5}
+  m_LocalScale: {x: 25, y: 1, z: 25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1997342066
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997342062}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2016240426
 GameObject:
   m_ObjectHideFlags: 0
@@ -15193,11 +15997,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 1380872451}
   _springLenght: 0.15
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve: []
@@ -15205,6 +16011,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.2
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 1579323642}
   _tireMass: 100
@@ -15744,11 +16552,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf9d76661719c4c9fb436a799d21fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _car: {fileID: 0}
   _carRb: {fileID: 1378344026}
   _springLenght: 0.25
   _springStrength: 100000
   _springDamping: 2500
   _tireModelRadius: 0.18
+  _isDrifting: 0
   _sideSlipCurve:
     serializedVersion: 2
     m_Curve:
@@ -15774,6 +16584,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _sideSlipStrength: 0.2
+  _sideSlipDetection: 0
+  _finalSlipStrength: 0
   _isGrounded: 0
   _tireModel: {fileID: 1995705229}
   _tireMass: 100
@@ -17987,3 +18799,8 @@ SceneRoots:
   - {fileID: 1924440324}
   - {fileID: 409186604}
   - {fileID: 872339095}
+  - {fileID: 968716821}
+  - {fileID: 928856081}
+  - {fileID: 587151355}
+  - {fileID: 1997342065}
+  - {fileID: 938117731}

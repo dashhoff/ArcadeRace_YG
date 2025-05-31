@@ -1,8 +1,10 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Wheel : MonoBehaviour
 {
+    [SerializeField] private Car _car;
     [SerializeField] private Rigidbody _carRb;
 
     [Header("Suspension")]
@@ -11,10 +13,23 @@ public class Wheel : MonoBehaviour
     [SerializeField] private float _springDamping;
     
     [SerializeField] private float _tireModelRadius;
-    
+
     [Header("Side slip")] 
+    [SerializeField] private bool _isDrifting = false;
     [SerializeField] private AnimationCurve _sideSlipCurve;
-    [SerializeField] private float _sideSlipStrength;
+    [SerializeField] private float _sideSlipStrength = 1;
+    [SerializeField] private float _sideSlipDetection;
+    [SerializeField] private float _finalSlipStrength;
+    
+    private Dictionary<string, float> _surfaceFriction = new()
+    {
+        { "Asphalt", 0.7f },
+        { "Gravel", 0.5f },
+        { "Dirt", 0.3f },
+        { "Snow", 0.15f },
+        { "Ice", 0.05f },
+        {"Other", 0.7f}
+    };
     
     [Header("Other")] 
     [SerializeField] private bool _isGrounded;
@@ -39,6 +54,8 @@ public class Wheel : MonoBehaviour
     private void FixedUpdate()
     {
         Suspension();
+        SurfaceDetection();
+        SlipDetection();
         SideSlip();
         
         //RollingResistance();
@@ -95,11 +112,40 @@ public class Wheel : MonoBehaviour
         float carSpeed = Vector3.Dot(transform.forward, _carRb.linearVelocity);
         float sideSlip = _sideSlipCurve.Evaluate(0.5f);                             //TODO Исправить на скорость автомобиля (чем выше - тем больше)
         
-        float directionVelChange = -steeringVel * _sideSlipStrength * sideSlip;
+        _finalSlipStrength = _sideSlipStrength * _sideSlipDetection * sideSlip;
+        float directionVelChange = -steeringVel * _finalSlipStrength;
         
         float desiredAccel =  directionVelChange / Time.fixedDeltaTime;
         
         _carRb.AddForceAtPosition(steeringDirection * _tireMass * desiredAccel, transform.position);
+    }
+
+    private void SlipDetection()
+    {
+        if (!_isDriveTire)
+        {
+            _sideSlipDetection = 1;
+            return;
+        }
+        
+        float carSpeed = _carRb.linearVelocity.magnitude;
+        float wheelAngilarVelosity = _car.CalculateTorque() / 5000;
+        
+        if (wheelAngilarVelosity < 0.01f)
+            wheelAngilarVelosity = 0.01f;
+        
+        float slipRatio = Mathf.Clamp01(wheelAngilarVelosity / carSpeed);
+        
+        if (slipRatio > 0.3f)
+        {
+            _isDrifting = true;
+            _sideSlipDetection = _sideSlipStrength * (1f - slipRatio);
+        }
+        else
+        {
+            _isDrifting = false;
+            _sideSlipDetection = 1f;
+        }
     }
 
     public void Acceleration(float torque)
@@ -128,6 +174,36 @@ public class Wheel : MonoBehaviour
         Vector3 resistanceForce = -velocity.normalized;
 
         _carRb.AddForceAtPosition(resistanceForce, transform.position);
+    }
+
+    public void SurfaceDetection()
+    {
+        Ray ray = new Ray(transform.position, -transform.up);
+
+        if (Physics.Raycast(ray, out RaycastHit hit))
+        {
+            switch (hit.transform.tag)
+            {
+                case "Asphalt":
+                    _sideSlipStrength = 1 * _surfaceFriction["Asphalt"];
+                    break;
+                case "Gravel":
+                    _sideSlipStrength = 1 * _surfaceFriction["Gravel"];
+                    break;
+                case "Dirt":
+                    _sideSlipStrength = 1 * _surfaceFriction["Dirt"];
+                    break;
+                case "Snow":
+                    _sideSlipStrength = 1 * _surfaceFriction["Snow"];
+                    break;
+                case "Ice":
+                    _sideSlipStrength = 1 * _surfaceFriction["Ice"];
+                    break;
+                default:
+                    _sideSlipStrength = 1 * _surfaceFriction["Other"];
+                    break;
+            }
+        }
     }
     
     public void SetCarRb(Rigidbody newRb) => _carRb = newRb;

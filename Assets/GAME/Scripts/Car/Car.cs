@@ -8,8 +8,8 @@ public class Car : MonoBehaviour
     [SerializeField] private Wheel[] _frontWheels;
     
     [SerializeField] private Rigidbody _rb;
-
-    [SerializeField] private float _steering;
+    
+    [SerializeField] private AnimationCurve _steeringCurve;
 
     public Engine _engine;
     public Gearbox _gearbox;
@@ -34,6 +34,7 @@ public class Car : MonoBehaviour
     {
         _carUI.UpdateRPMText(_engine.GetRPM());
         _carUI.UpdateGearText(_gearbox.GetCurrentGear());
+        _carUI.UpdateSpeedText(Mathf.Round(_rb.linearVelocity.magnitude * 5));
     }
     
     public void Init()
@@ -70,13 +71,16 @@ public class Car : MonoBehaviour
 
     public void RotateFrontWheel(float angle)
     {
+        float carSpeed = _rb.linearVelocity.magnitude;
+        float steering = _steeringCurve.Evaluate(carSpeed);
+        
         for (int i = 0; i < _frontWheels.Length; i++)
         {
             Quaternion targetRotation = Quaternion.Euler(0, angle, 0);
             _frontWheels[i].transform.localRotation = Quaternion.Lerp(
                 _frontWheels[i].transform.localRotation,
                 targetRotation,
-                Time.deltaTime * _steering);
+                Time.deltaTime * steering);
         }
     }
 }
