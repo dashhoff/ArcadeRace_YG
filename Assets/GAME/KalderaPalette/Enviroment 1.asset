@@ -70,6 +70,33 @@ MonoBehaviour:
       IsVariantsOpen: 0
       VariantsScroll: {x: 0, y: 0}
       IsOpenInEditor: 0
+    - Name: GrassDynamic_3
+      GameObjectVariants:
+      - {fileID: 2330543128432262583, guid: 9e2d998d32f2a404f89dd456f82e7238, type: 3}
+      Rotation:
+        Constant: {x: 0, y: 0, z: 0}
+        Min: {x: 0, y: 0, z: 0}
+        Max: {x: 0, y: 360, z: 0}
+        Mode: 1
+      Scale:
+        Mode: 3
+        MinScale: {x: 1, y: 1, z: 1}
+        MaxScale: {x: 1, y: 1, z: 1}
+        UnitformScaling: 1
+      AdvancedOptions:
+        AllowPlacementCollisions: 0
+        MultiplyPrefabScale: 1
+        UsePrefabRotation: 0
+        UsePrefabHeight: 1
+        UseIndividualGroundHeight: 1
+        AllowCollision: 0
+        SpacingFactor: 1
+        RotationOffset: {x: 0, y: 0, z: 0}
+        NameType: 0
+      IsAdvancesOptionsOpenInEditor: 0
+      IsVariantsOpen: 0
+      VariantsScroll: {x: 0, y: 0}
+      IsOpenInEditor: 0
     NewGroupItem:
       Name: 
       GameObjectVariants:

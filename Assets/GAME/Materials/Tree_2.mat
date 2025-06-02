@@ -40,8 +40,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _Height: 0
-    - _WindIntensivituty: 0
-    - _WindSpeed: 0
+    - _WindIntensivituty: 0.1
+    - _WindSpeed: 0.1
     - _WindWaveHeight: 0.2
     - _WindWaveNoiseSpeed: 1
     m_Colors:

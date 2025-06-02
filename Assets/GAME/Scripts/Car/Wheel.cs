@@ -57,7 +57,9 @@ public class Wheel : MonoBehaviour
         SurfaceDetection();
         SlipDetection();
         SideSlip();
-        
+
+        RotateWheel();
+
         //RollingResistance();
     }
 
@@ -153,16 +155,30 @@ public class Wheel : MonoBehaviour
         if (!_isGrounded) return;
         
         Vector3 accelerationDirection = transform.forward;
+        
+        _carRb.AddForceAtPosition(accelerationDirection * torque * _sideSlipStrength, transform.position);
+    }
 
-        float carSpeed = Vector3.Dot(transform.forward, _carRb.linearVelocity);
+    public void RotateWheel()
+    {
+        float carSpeed = _carRb.linearVelocity.magnitude;
         
-        _carRb.AddForceAtPosition(accelerationDirection * torque, transform.position);
+        float rotationsPerSecond = Mathf.PI * carSpeed * 25;
         
-        float rotationsPerSecond = carSpeed * Mathf.PI;
-        float rotation = _tireModel.transform.localRotation.x;
-        rotation += Mathf.Rad2Deg * rotationsPerSecond * Time.fixedDeltaTime * 7.5f;
-            
-        _tireModel.transform.localRotation = Quaternion.Euler(rotation, _tireYStartRotation, _tireZStartRotation);
+        if (_isDriveTire && _isGrounded)
+            rotationsPerSecond = _car._engine.GetTorque() * Mathf.PI * carSpeed / 1000;
+        
+        if (_isDriveTire && !_isGrounded)
+            rotationsPerSecond = _car._engine.GetTorque() * Mathf.PI / 2500; 
+
+        float rotation = _tireModel.transform.localEulerAngles.x;
+        rotation += Mathf.Rad2Deg * rotationsPerSecond * Time.fixedDeltaTime;
+
+        _tireModel.transform.localRotation = Quaternion.Euler(
+            rotation,
+            _tireYStartRotation,
+            _tireZStartRotation
+        );
     }
 
     private void RollingResistance()
