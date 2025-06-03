@@ -10,6 +10,7 @@ public class Loading : MonoBehaviour
     [SerializeField] private Image _backImage;
     [SerializeField] private Animation _logoAnim;
     [SerializeField] private Animation _textAnim;
+    [SerializeField] private Animation _downTextAnim;
     [SerializeField] private AudioSource _logoAudio;
     
     private void Start()
@@ -19,6 +20,7 @@ public class Loading : MonoBehaviour
 
     public IEnumerator LoadingAnimCor()
     { 
+        _downTextAnim.Play();
         _logoAnim.Play();
         _textAnim.Play();
         
