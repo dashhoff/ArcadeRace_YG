@@ -7,26 +7,13 @@
     <list default="true" id="add5c179-d643-4781-8833-cd37714ef58b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ArcadeRace_YG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArcadeRace_YG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Fonts/Digiface (Rus by MarkStarikov2014) Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Fonts/Digiface (Rus by MarkStarikov2014) Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Fonts/DoorsSmallLettersAddedV2.9.5 SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Fonts/DoorsSmallLettersAddedV2.9.5 SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Fonts/NocturneSerif-ExtraBold Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Fonts/NocturneSerif-ExtraBold Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Fonts/YesevaOne-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Fonts/YesevaOne-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/UI/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/UI/Button.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/Loading.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/Loading.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Graphics/High_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Graphics/High_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Graphics/Low_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Graphics/Low_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Graphics/Medium_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Graphics/Medium_RPAsset.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuAudio.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuAudio.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/SettingsSaves.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/SettingsSaves.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +98,7 @@
       <updated>1748872192191</updated>
       <workItem from="1748872193902" duration="11095000" />
       <workItem from="1748923812113" duration="6904000" />
-      <workItem from="1748958826410" duration="5247000" />
+      <workItem from="1748958826410" duration="6397000" />
     </task>
     <servers />
   </component>
