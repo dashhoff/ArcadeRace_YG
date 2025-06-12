@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class Gearbox : MonoBehaviour
 {
+    [SerializeField] private Car _car;
     [SerializeField] private int _gearsNumber = 5;
     [SerializeField] private int _currentGear;
+
+    [SerializeField] private float _gearSwitchOffest = 0.5f;
 
     [SerializeField] private float[] _gearRations =
     {
@@ -28,12 +31,23 @@ public class Gearbox : MonoBehaviour
     public void UpGear()
     {
         if (_currentGear != _gearsNumber - 1)
+        {
+            if (_currentGear != 0)
+                _car._engine.SubRPM(Mathf.RoundToInt(_car._engine.GetRPM() * _gearSwitchOffest));
+                
             _currentGear++;
+        }
     }
 
     public void DownGear()
     {
         if (_currentGear != 0)
-            _currentGear--;
+        {
+            if (_currentGear != 1)
+            {
+                _car._engine.AddRPM(Mathf.RoundToInt(_car._engine.GetRPM() * _gearSwitchOffest));
+            }
+            _currentGear--; 
+        }
     } 
 }

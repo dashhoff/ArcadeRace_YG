@@ -1,12 +1,17 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CarUI : MonoBehaviour
 {
+    [SerializeField] private Car _car;
+    
     [SerializeField] private TMP_Text _currentGearText;
     [SerializeField] private TMP_Text _currentRpmText;
     [SerializeField] private TMP_Text _currentSpeedText;
+
+    [SerializeField] private Image _RPMBar;
 
     public void UpdateGearText(float newGear)
     {
@@ -24,5 +29,11 @@ public class CarUI : MonoBehaviour
     public void UpdateSpeedText(float newSpeed)
     {
         _currentSpeedText.text = newSpeed.ToString();
+    }
+
+    public void UpdateRPMBar()
+    {
+        float value = Mathf.InverseLerp(0, _car._engine.GetMaxRPM(), _car._engine.GetRPM());
+        _RPMBar.fillAmount = value;
     }
 }

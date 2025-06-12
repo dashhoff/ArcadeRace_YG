@@ -33,6 +33,7 @@ public class Car : MonoBehaviour
     public void UpdateUI()
     {
         _carUI.UpdateRPMText(_engine.GetRPM());
+        _carUI.UpdateRPMBar();
         _carUI.UpdateGearText(_gearbox.GetCurrentGear());
         _carUI.UpdateSpeedText(Mathf.Round(_rb.linearVelocity.magnitude * 5));
     }

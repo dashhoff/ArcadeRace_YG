@@ -37,6 +37,20 @@ public class Engine : MonoBehaviour
 
     public int GetMaxRPM() => _maxRPM;
     public int GetRPM() => _currentRPM;
+
+    public void AddRPM(int value)
+    {
+        _currentRPM += value;
+        if (_currentRPM > _maxRPM)
+            _currentRPM = _maxRPM;
+    }
+    
+    public void SubRPM(int value)
+    {
+        _currentRPM -= value;
+        if (_currentRPM < 0)
+            _currentRPM = 0;
+    }
     
     public float GetTorque()
     {
