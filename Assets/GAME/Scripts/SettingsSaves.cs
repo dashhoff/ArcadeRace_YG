@@ -15,6 +15,7 @@ public class SettingsSaves : MonoBehaviour
     [Header("Graphics")]
     public int GraphicsPreset;
     public int EnviromentPreset;
+    //public int AntiAliasingPreset;
     
     private void Awake()
     {
@@ -35,6 +36,7 @@ public class SettingsSaves : MonoBehaviour
         MusicVolume = PlayerPrefs.GetFloat("MusicVolume", 1);
         
         GraphicsPreset = PlayerPrefs.GetInt("GraphicsPreset", 1);
+        //AntiAliasingPreset = PlayerPrefs.GetInt("AntiAliasingPreset", 0);
     }
 
     public void Load()
@@ -57,6 +59,7 @@ public class SettingsSaves : MonoBehaviour
         PlayerPrefs.SetFloat("MusicVolume", MusicVolume);
         
         PlayerPrefs.SetInt("GraphicsPreset", GraphicsPreset);
+        //PlayerPrefs.SetInt("AntiAliasingPreset", AntiAliasingPreset);
         
         PlayerPrefs.Save();
     }
@@ -70,6 +73,7 @@ public class SettingsSaves : MonoBehaviour
         PlayerPrefs.SetFloat("MusicVolume", MusicVolume);
         
         PlayerPrefs.SetInt("GraphicsPreset", GraphicsPreset);
+        //PlayerPrefs.SetInt("AntiAliasingPreset", AntiAliasingPreset);
         
         PlayerPrefs.Save();
     }

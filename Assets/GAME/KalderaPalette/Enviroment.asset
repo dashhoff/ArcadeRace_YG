@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Categories:
   - {fileID: 11400000, guid: b428338f12c0c064cbbe621251cd7e2c, type: 2}
+  - {fileID: 0}

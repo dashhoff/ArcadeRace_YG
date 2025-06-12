@@ -19,15 +19,16 @@ public class Wheel : MonoBehaviour
     [SerializeField] private AnimationCurve _sideSlipCurve;
     [SerializeField] private float _sideSlipStrength = 1;
     [SerializeField] private float _sideSlipDetection;
-    [SerializeField] private float _finalSlipStrength;
+    [SerializeField] private float _sideSlipOffset;
+    [SerializeField] private float _finalSideSlipStrenght;
     
     private Dictionary<string, float> _surfaceFriction = new()
     {
-        { "Asphalt", 0.7f },
-        { "Gravel", 0.5f },
-        { "Dirt", 0.3f },
-        { "Snow", 0.15f },
-        { "Ice", 0.05f },
+        { "Asphalt", 0.9f },
+        { "Gravel", 0.8f },
+        { "Dirt", 0.7f },
+        { "Snow", 0.3f },
+        { "Ice", 0.1f },
         {"Other", 0.7f}
     };
     
@@ -114,8 +115,11 @@ public class Wheel : MonoBehaviour
         float carSpeed = Vector3.Dot(transform.forward, _carRb.linearVelocity);
         float sideSlip = _sideSlipCurve.Evaluate(0.5f);                             //TODO Исправить на скорость автомобиля (чем выше - тем больше)
         
-        _finalSlipStrength = _sideSlipStrength * _sideSlipDetection * sideSlip;
-        float directionVelChange = -steeringVel * _finalSlipStrength;
+        _finalSideSlipStrenght = _sideSlipStrength * _sideSlipDetection * sideSlip + _sideSlipOffset;
+        if (_finalSideSlipStrenght < 0)
+            _finalSideSlipStrenght = 0;
+                    
+        float directionVelChange = -steeringVel * _finalSideSlipStrenght;
         
         float desiredAccel =  directionVelChange / Time.fixedDeltaTime;
         

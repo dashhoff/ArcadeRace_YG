@@ -16,6 +16,7 @@ public class MenuSettings : MonoBehaviour
     [Header("Graphics")]
     [SerializeField] private Slider _generalGraphicSlider;
     [SerializeField] private Slider _enviromentGraphicSlider;
+    //[SerializeField] private Slider _antiAliasingSlider;
 
     public void Init()
     {
@@ -72,6 +73,28 @@ public class MenuSettings : MonoBehaviour
         
         
     }
+    
+    /*public void OnAntiAliasingSliderChanged() 
+    {
+            SettingsSaves.Instance.AntiAliasingPreset = Mathf.RoundToInt(_antiAliasingSlider.value);
+            SettingsSaves.Instance.Save();
+
+            switch (SettingsSaves.Instance.AntiAliasingPreset)
+            {
+                case 0:
+                    QualitySettings.antiAliasing = 0;
+                    break;
+                case 1:
+                    QualitySettings.antiAliasing = 2;
+                    break;
+                case 2:
+                    QualitySettings.antiAliasing = 4;
+                    break;
+                case 3:
+                    QualitySettings.antiAliasing = 8;
+                    break;
+            }
+    }*/
 
     public void LoadSlidersValue()
     {
@@ -83,6 +106,8 @@ public class MenuSettings : MonoBehaviour
 
         _generalGraphicSlider.value = SettingsSaves.Instance.GraphicsPreset;
         _enviromentGraphicSlider.value = SettingsSaves.Instance.EnviromentPreset;
+        
+        //_antiAliasingSlider.value = SettingsSaves.Instance.AntiAliasingPreset;
     }
 
     private float ToDecibel(float value) => Mathf.Log10(Mathf.Clamp(value, 0.0001f, 1f)) * 20f;

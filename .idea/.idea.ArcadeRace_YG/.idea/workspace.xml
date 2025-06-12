@@ -6,14 +6,132 @@
   <component name="ChangeListManager">
     <list default="true" id="add5c179-d643-4781-8833-cd37714ef58b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ArcadeRace_YG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArcadeRace_YG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Fonts/Digiface (Rus by MarkStarikov2014) Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Fonts/Digiface (Rus by MarkStarikov2014) Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Fonts/NocturneSerif-ExtraBold Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Fonts/NocturneSerif-ExtraBold Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Animations/Loading/LogoAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Animations/Loading/LogoAnim.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Animations/Loading/Text.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Animations/Loading/Text.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Graphics/High_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Graphics/High_RPAsset.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Graphics/Low_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Graphics/Low_RPAsset.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Graphics/Medium_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Graphics/Medium_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/KalderaPalette/Enviroment 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/KalderaPalette/Enviroment 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/KalderaPalette/Enviroment.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/KalderaPalette/Enviroment.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/Asphalt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/Asphalt.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/Dirt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/Dirt.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/Fence.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/Fence.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/Grass_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/Grass_2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/Gravel.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/Gravel.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/Ice.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/Ice.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/Leaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/Leaves.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/Snow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/Snow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/Tree.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/Tree.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/$hm!TT.0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/$hm!TT.0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/Car windshield glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/Car windshield glass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/boot_ok.1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/boot_ok.1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/boot_ok.4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/boot_ok.4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/boot_ok.5.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/boot_ok.5.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/chassis.1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/chassis.1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/chassis.2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/chassis.2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/chassis.4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/chassis.4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/chassis.8.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/chassis.8.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/chassis.9.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/chassis.9.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/dash.0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/dash.0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/dash.1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/dash.1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/dash.2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/dash.2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/dash.3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/dash.3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/door_rf_ok.3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/door_rf_ok.3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/peredfar.0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/peredfar.0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/primary.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/primary.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/radiator.0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/radiator.0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/radiator.1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/radiator.1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/radiator.2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/radiator.2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/radiator.3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/radiator.3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/radiator.4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/radiator.4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/salon.0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/salon.0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/salon.1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/salon.1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/salon.2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/salon.2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/wheel.0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/wheel.0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/wheel.1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/wheel.1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/wheel.2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/wheel.2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/wheel.3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Models/bmw-m3-gtr-nfs-mw/source/wheel.3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enviroment/GrassDynamic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enviroment/GrassDynamic.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enviroment/Tree_1Static.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enviroment/Tree_1Static.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enviroment/Tree_2Static.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enviroment/Tree_2Static.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enviroment/Tree_3Static.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enviroment/Tree_3Static.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/FreeRiding.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/FreeRiding.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/Loading.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/Loading.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_dir.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_light.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-1_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-1_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-1_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-2_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-2_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-2_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-2_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/CarUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/CarUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/Engine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/Engine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/Wheel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/Wheel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/SettingsSaves.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/SettingsSaves.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Sprites/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Sprites/logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Sprites/nfsmwmap.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Sprites/nfsmwmap.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Car/Mat_Car_Light.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Car/Mat_Car_Light.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Car/Mat_Car_White.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Car/Mat_Car_White.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Car/Mat_Car_WineRed.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Car/Mat_Car_WineRed.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Wheels(tire)/Mat_Tire_Base.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Wheels(tire)/Mat_Tire_Base.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Wheels(tire)/Mat_Wheels_Base.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Wheels(tire)/Mat_Wheels_Base.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Wheels(tire)/Mat_Wheels_Blake.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Wheels(tire)/Mat_Wheels_Blake.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Wheels(tire)/Mat_Wheels_White.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Mat_Wheels(tire)/Mat_Wheels_White.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Plane.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Materials/Plane.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Car/BBW30_NA.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Car/BBW30_NA.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Car/BBW30_UP.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Car/BBW30_UP.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Car/BBW30_UP.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Car/BBW30_UP.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Wheels(tire)/Brake_Base.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Wheels(tire)/Brake_Base.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Wheels(tire)/Wheels_Free.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Wheels(tire)/Wheels_Free.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Wheels(tire)/Wheels_base.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Wheels(tire)/Wheels_base.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Wheels(tire)/tire_base.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Meshes/Mes_Wheels(tire)/tire_base.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Prefabs/BBW30_NA.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Prefabs/BBW30_NA.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Prefabs/BBW30_Tune(Sample).prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Prefabs/BBW30_Tune(Sample).prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Prefabs/BBW30_UP.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Prefabs/BBW30_UP.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Prefabs/Brake_Base.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Prefabs/Brake_Base.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Prefabs/Wheels_Base.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Prefabs/Wheels_Base.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Prefabs/Wheels_Free.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Prefabs/Wheels_Free.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Scenes/New Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Scenes/New Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Scenes/New Scene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Scenes/New Scene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Car/Car_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Car/Car_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Car/Car_White.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Car/Car_White.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Car/Car_WineRed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Car/Car_WineRed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Wheels(tire)/Tire_Base.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Wheels(tire)/Tire_Base.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Wheels(tire)/Wheels_Base.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Wheels(tire)/Wheels_Base.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Wheels(tire)/Wheels_Black.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Wheels(tire)/Wheels_Black.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Wheels(tire)/Wheels_White.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaFlush_DriftCar_Free/Textures/Tex_Wheels(tire)/Wheels_White.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/YesevaOne-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/YesevaOne-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/BuildLogYG.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/BuildLogYG.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.sequences/Settings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +170,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.1.7f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Unity\Projects\ArcadeRace_YG -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Unity\Projects\ArcadeRace_YG" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -60,7 +178,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.1.7f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Unity\Projects\ArcadeRace_YG -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Unity\Projects\ArcadeRace_YG" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -99,6 +217,8 @@
       <workItem from="1748872193902" duration="11095000" />
       <workItem from="1748923812113" duration="6904000" />
       <workItem from="1748958826410" duration="6397000" />
+      <workItem from="1749466663346" duration="1564000" />
+      <workItem from="1749748986523" duration="4532000" />
     </task>
     <servers />
   </component>

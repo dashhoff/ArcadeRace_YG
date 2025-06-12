@@ -28,8 +28,9 @@ public class Engine : MonoBehaviour
 
     [SerializeField] private int _maxRPM;
     [SerializeField] private int _currentRPM;
-    [SerializeField] private int _RPMAcceleration;
-    [SerializeField] private int _RPMDeceleration;
+    [SerializeField] private AnimationCurve _RPMAccelerationCurve;
+    //[SerializeField] private int _RPMAcceleration;
+    //[SerializeField] private int _RPMDeceleration;
     
     [SerializeField] private AnimationCurve _torqueCurve;
     [SerializeField] private float _torqueOffset;
@@ -45,18 +46,37 @@ public class Engine : MonoBehaviour
 
     public void Acceleration(float acceleration)
     {
-        _currentRPM += Mathf.RoundToInt(_RPMAcceleration * acceleration * _gearbox.GetCurrentGearRatio());
+        float normalizedRPM = Mathf.InverseLerp(0, _maxRPM, _currentRPM);
+
+        if (_gearbox.GetCurrentGearRatio() < 0)
+            _currentRPM += Mathf.RoundToInt(_RPMAccelerationCurve.Evaluate(normalizedRPM) * -_gearbox.GetCurrentGearRatio());
+        else
+            _currentRPM += Mathf.RoundToInt(_RPMAccelerationCurve.Evaluate(normalizedRPM) * _gearbox.GetCurrentGearRatio());
         
         if (_currentRPM >= _maxRPM)
         {
             _currentRPM = _maxRPM;
             return;
         }
+
+        if (_currentRPM < 0)
+        {
+            _currentRPM = 0;
+            return;
+        }
     }
     
     public void SetInput(float acceleration)
     {
-        if (acceleration != 0) Acceleration(acceleration);
-        else _currentRPM = Mathf.RoundToInt(Mathf.Max(0, _currentRPM - _RPMDeceleration * _gearbox.GetCurrentGearRatio()));
+        float normalizedRPM = Mathf.InverseLerp(0, _maxRPM, _currentRPM);
+        
+        if (acceleration != 0 ) Acceleration(acceleration);
+        else
+        {
+            if (_gearbox.GetCurrentGear() != 0)
+                _currentRPM = Mathf.RoundToInt(Mathf.Max(0, _currentRPM - _RPMAccelerationCurve.Evaluate(normalizedRPM) * _gearbox.GetCurrentGearRatio()));
+            else
+                _currentRPM = Mathf.RoundToInt(Mathf.Max(0, _currentRPM + _RPMAccelerationCurve.Evaluate(normalizedRPM) * _gearbox.GetCurrentGearRatio()));
+        }
     }
 }

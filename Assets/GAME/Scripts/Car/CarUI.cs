@@ -10,7 +10,10 @@ public class CarUI : MonoBehaviour
 
     public void UpdateGearText(float newGear)
     {
-        _currentGearText.text = newGear.ToString();
+        if(newGear == 0)
+            _currentGearText.text = "R";
+        else
+            _currentGearText.text = newGear.ToString();
     }
     
     public void UpdateRPMText(float newRPM)
