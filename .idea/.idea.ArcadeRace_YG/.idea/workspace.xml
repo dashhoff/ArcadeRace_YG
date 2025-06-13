@@ -8,10 +8,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ArcadeRace_YG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArcadeRace_YG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/FreeRiding.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/FreeRiding.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/Car.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/CarUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/CarUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/Engine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/Engine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/Gearbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/Gearbox.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/YesevaOne-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/YesevaOne-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,8 @@
       <workItem from="1748958826410" duration="6397000" />
       <workItem from="1749466663346" duration="1564000" />
       <workItem from="1749748986523" duration="4532000" />
-      <workItem from="1749755884225" duration="2295000" />
+      <workItem from="1749755884225" duration="2333000" />
+      <workItem from="1749795651335" duration="6589000" />
     </task>
     <servers />
   </component>

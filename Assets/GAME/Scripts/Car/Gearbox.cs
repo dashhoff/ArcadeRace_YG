@@ -18,6 +18,8 @@ public class Gearbox : MonoBehaviour
         0.75f
     }; //2105
     
+    [SerializeField] private AnimationCurve[] _gearRationsStrenght;
+    
     public float GetCurrentGear()
     {
         return _currentGear;
@@ -25,7 +27,21 @@ public class Gearbox : MonoBehaviour
     
     public float GetCurrentGearRatio()
     {
-        return _gearRations[_currentGear];
+        float ratio = _gearRations[_currentGear];
+        
+        Debug.Log("Ratio: " + ratio);
+        
+        return ratio;
+    }
+    
+    public float GetCurrentGearRatioStrenght()
+    {
+        float normalizedRPM = Mathf.InverseLerp(0, _car._engine.GetMaxRPM(), _car._engine.GetRPM());
+        float ratioStrenght = _gearRationsStrenght[_currentGear].Evaluate(normalizedRPM);
+        
+        Debug.Log("RatioStrenght: " + ratioStrenght);
+        
+        return ratioStrenght;
     }
 
     public void UpGear()

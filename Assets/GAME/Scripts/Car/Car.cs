@@ -10,6 +10,7 @@ public class Car : MonoBehaviour
     [SerializeField] private Rigidbody _rb;
     
     [SerializeField] private AnimationCurve _steeringCurve;
+    [SerializeField] private float _steeringOffset = 4;
 
     public Engine _engine;
     public Gearbox _gearbox;
@@ -54,7 +55,7 @@ public class Car : MonoBehaviour
 
     public float CalculateTorque()
     {
-        return _engine.GetTorque() / _gearbox.GetCurrentGearRatio();
+        return _engine.GetTorque() / _gearbox.GetCurrentGearRatio() * _gearbox.GetCurrentGearRatioStrenght();
     }
 
     public void Acceleration(float torque)
@@ -78,10 +79,21 @@ public class Car : MonoBehaviour
         for (int i = 0; i < _frontWheels.Length; i++)
         {
             Quaternion targetRotation = Quaternion.Euler(0, angle, 0);
-            _frontWheels[i].transform.localRotation = Quaternion.Lerp(
-                _frontWheels[i].transform.localRotation,
-                targetRotation,
-                Time.deltaTime * steering);
+
+            if (angle != 0)
+            {
+                _frontWheels[i].transform.localRotation = Quaternion.Lerp(
+                    _frontWheels[i].transform.localRotation,
+                    targetRotation,
+                    Time.deltaTime * steering);
+            }
+            else
+            {
+                _frontWheels[i].transform.localRotation = Quaternion.Lerp(
+                    _frontWheels[i].transform.localRotation,
+                    targetRotation,
+                    Time.deltaTime * steering * _steeringOffset);
+            }
         }
     }
 }

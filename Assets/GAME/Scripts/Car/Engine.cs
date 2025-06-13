@@ -55,7 +55,11 @@ public class Engine : MonoBehaviour
     public float GetTorque()
     {
         float normalizedRPM = Mathf.InverseLerp(0, _maxRPM, _currentRPM);
-        return _torqueCurve.Evaluate(normalizedRPM) * _torqueOffset;
+        float torque = _torqueCurve.Evaluate(normalizedRPM) * _torqueOffset * _gearbox.GetCurrentGearRatioStrenght();
+        
+        //Debug.Log("Torque: " + torque);
+        
+        return torque;
     }
 
     public void Acceleration(float acceleration)
@@ -63,7 +67,7 @@ public class Engine : MonoBehaviour
         float normalizedRPM = Mathf.InverseLerp(0, _maxRPM, _currentRPM);
 
         if (_gearbox.GetCurrentGearRatio() < 0)
-            _currentRPM += Mathf.RoundToInt(_RPMAccelerationCurve.Evaluate(normalizedRPM) * -_gearbox.GetCurrentGearRatio());
+            _currentRPM += Mathf.RoundToInt(_RPMAccelerationCurve.Evaluate(normalizedRPM) * -1 * _gearbox.GetCurrentGearRatio());
         else
             _currentRPM += Mathf.RoundToInt(_RPMAccelerationCurve.Evaluate(normalizedRPM) * _gearbox.GetCurrentGearRatio());
         
