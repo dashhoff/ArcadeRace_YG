@@ -1,7 +1,6 @@
 using System.Collections;
 using UnityEngine;
 using DG.Tweening;
-using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -19,7 +18,10 @@ public class Loading : MonoBehaviour
     }
 
     public IEnumerator LoadingAnimCor()
-    { 
+    {
+        AsyncOperation loadingScene = SceneManager.LoadSceneAsync("MenuAutumm");
+        loadingScene.allowSceneActivation = false;
+            
         _downTextAnim.Play();
         _logoAnim.Play();
         _textAnim.Play();
@@ -29,8 +31,15 @@ public class Loading : MonoBehaviour
             .Append(backRectTransform.DOAnchorPosX(backRectTransform.anchoredPosition.x + 1000, 25f))
             .SetEase(Ease.Linear);
 
-        yield return new WaitForSecondsRealtime(3f);
+        yield return new WaitForSecondsRealtime(5f);
 
-        SceneManager.LoadScene("MenuAutumm");
+        while (loadingScene.progress < 0.9f)
+        {
+            yield return null;
+        }
+        
+        loadingScene.allowSceneActivation = true;
+
+        //SceneManager.LoadScene("MenuAutumm");
     }
 }
