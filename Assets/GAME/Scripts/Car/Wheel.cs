@@ -57,6 +57,7 @@ public class Wheel : MonoBehaviour
         Suspension();
         SurfaceDetection();
         SlipDetection();
+        //WheelIsDrifting();
         SideSlip();
 
         RotateWheel();
@@ -127,7 +128,7 @@ public class Wheel : MonoBehaviour
     }
 
     private void SlipDetection()
-    {
+    { 
         if (!_isDriveTire)
         {
             _sideSlipDetection = 1;
@@ -146,6 +147,27 @@ public class Wheel : MonoBehaviour
         {
             _isDrifting = true;
             _sideSlipDetection = _sideSlipStrength * (1f - slipRatio);
+        }
+        else
+        {
+            _isDrifting = false;
+            _sideSlipDetection = 1f;
+        }
+    }
+
+    //TODO Переделать метод под определение в заносе ли колесо в соответствии с определением угла колеса и его вектора движения
+    private void WheelIsDrifting()
+    {
+        Vector3 localVelocity = _carRb.transform.InverseTransformDirection(_carRb.linearVelocity);
+        float sideSpeed = localVelocity.x;
+        float forwardSpeed = localVelocity.z;
+
+        float slipAngle = Mathf.Atan2(sideSpeed, Mathf.Abs(forwardSpeed)) * Mathf.Rad2Deg;
+
+        if (Mathf.Abs(slipAngle) > 0.5f)
+        {
+            _isDrifting = true;
+            _sideSlipDetection = _sideSlipStrength * Mathf.Clamp01(Mathf.Abs(slipAngle) / 30f);
         }
         else
         {

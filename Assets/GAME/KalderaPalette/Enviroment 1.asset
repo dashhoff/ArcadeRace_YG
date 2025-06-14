@@ -125,7 +125,7 @@ MonoBehaviour:
       IsVariantsOpen: 0
       VariantsScroll: {x: 0, y: 0}
       IsOpenInEditor: 0
-    IsOpenInEditor: 1
+    IsOpenInEditor: 0
   - GroupName: TreeDynamic
     Items:
     - Name: Tree_1Dynamic
@@ -154,7 +154,7 @@ MonoBehaviour:
       IsAdvancesOptionsOpenInEditor: 0
       IsVariantsOpen: 0
       VariantsScroll: {x: 0, y: 0}
-      IsOpenInEditor: 1
+      IsOpenInEditor: 0
     - Name: Tree_2Dynamic
       GameObjectVariants:
       - {fileID: 3838932813272200869, guid: 92f425f4f27e375449a5bf0deb90e0b0, type: 3}
@@ -181,7 +181,7 @@ MonoBehaviour:
       IsAdvancesOptionsOpenInEditor: 0
       IsVariantsOpen: 0
       VariantsScroll: {x: 0, y: 0}
-      IsOpenInEditor: 1
+      IsOpenInEditor: 0
     - Name: Tree_3Dynamic
       GameObjectVariants:
       - {fileID: 5471249819696607227, guid: 6f15c21663c194342883b7361157fc7d, type: 3}
@@ -208,7 +208,7 @@ MonoBehaviour:
       IsAdvancesOptionsOpenInEditor: 0
       IsVariantsOpen: 0
       VariantsScroll: {x: 0, y: 0}
-      IsOpenInEditor: 1
+      IsOpenInEditor: 0
     NewGroupItem:
       Name: 
       GameObjectVariants:
@@ -349,7 +349,7 @@ MonoBehaviour:
       IsVariantsOpen: 0
       VariantsScroll: {x: 0, y: 0}
       IsOpenInEditor: 0
-    IsOpenInEditor: 1
+    IsOpenInEditor: 0
   - GroupName: TreeStatic
     Items:
     - Name: Tree_1Static
@@ -461,7 +461,7 @@ MonoBehaviour:
       IsVariantsOpen: 0
       VariantsScroll: {x: 0, y: 0}
       IsOpenInEditor: 0
-    IsOpenInEditor: 1
+    IsOpenInEditor: 0
   - GroupName: RandomTree
     Items:
     - Name: Tree_1Static
@@ -521,4 +521,123 @@ MonoBehaviour:
       IsVariantsOpen: 0
       VariantsScroll: {x: 0, y: 0}
       IsOpenInEditor: 0
-    IsOpenInEditor: 1
+    IsOpenInEditor: 0
+  - GroupName: Ground
+    Items:
+    - Name: Ground
+      GameObjectVariants:
+      - {fileID: 4473012830486365972, guid: c82664fdc3fd8234c9e641901e58f70e, type: 3}
+      Rotation:
+        Constant: {x: 0, y: 0, z: 0}
+        Min: {x: 0, y: 0, z: 0}
+        Max: {x: 0, y: 360, z: 0}
+        Mode: 1
+      Scale:
+        Mode: 3
+        MinScale: {x: 1, y: 1, z: 1}
+        MaxScale: {x: 1, y: 1, z: 1}
+        UnitformScaling: 1
+      AdvancedOptions:
+        AllowPlacementCollisions: 0
+        MultiplyPrefabScale: 1
+        UsePrefabRotation: 0
+        UsePrefabHeight: 1
+        UseIndividualGroundHeight: 1
+        AllowCollision: 0
+        SpacingFactor: 1
+        RotationOffset: {x: 0, y: 0, z: 0}
+        NameType: 0
+      IsAdvancesOptionsOpenInEditor: 0
+      IsVariantsOpen: 0
+      VariantsScroll: {x: 0, y: 0}
+      IsOpenInEditor: 1
+    NewGroupItem:
+      Name: 
+      GameObjectVariants:
+      - {fileID: 0}
+      Rotation:
+        Constant: {x: 0, y: 0, z: 0}
+        Min: {x: 0, y: 0, z: 0}
+        Max: {x: 0, y: 360, z: 0}
+        Mode: 1
+      Scale:
+        Mode: 3
+        MinScale: {x: 1, y: 1, z: 1}
+        MaxScale: {x: 1, y: 1, z: 1}
+        UnitformScaling: 1
+      AdvancedOptions:
+        AllowPlacementCollisions: 0
+        MultiplyPrefabScale: 1
+        UsePrefabRotation: 0
+        UsePrefabHeight: 1
+        UseIndividualGroundHeight: 1
+        AllowCollision: 0
+        SpacingFactor: 1
+        RotationOffset: {x: 0, y: 0, z: 0}
+        NameType: 0
+      IsAdvancesOptionsOpenInEditor: 0
+      IsVariantsOpen: 0
+      VariantsScroll: {x: 0, y: 0}
+      IsOpenInEditor: 0
+    IsOpenInEditor: 0
+  - GroupName: Rocks
+    Items:
+    - Name: Rock_01
+      GameObjectVariants:
+      - {fileID: 2497674216897924304, guid: f9c83407974d6fb45856c96a7c8f6dca, type: 3}
+      - {fileID: 3650639613587735976, guid: ded774bfab0cbcb428574d26c48aab03, type: 3}
+      - {fileID: 3035398319317980633, guid: 1bcdcc08439242b408dca60d12e9ccd7, type: 3}
+      - {fileID: 2422427662251459585, guid: 5eb76bae6cd3ba442bd2069ea1dc3048, type: 3}
+      Rotation:
+        Constant: {x: 0, y: 0, z: 0}
+        Min: {x: 0, y: 0, z: 0}
+        Max: {x: 0, y: 360, z: 0}
+        Mode: 1
+      Scale:
+        Mode: 3
+        MinScale: {x: 1, y: 1, z: 1}
+        MaxScale: {x: 1, y: 1, z: 1}
+        UnitformScaling: 1
+      AdvancedOptions:
+        AllowPlacementCollisions: 0
+        MultiplyPrefabScale: 1
+        UsePrefabRotation: 0
+        UsePrefabHeight: 1
+        UseIndividualGroundHeight: 1
+        AllowCollision: 0
+        SpacingFactor: 1
+        RotationOffset: {x: 0, y: 0, z: 0}
+        NameType: 0
+      IsAdvancesOptionsOpenInEditor: 0
+      IsVariantsOpen: 0
+      VariantsScroll: {x: 0, y: 0}
+      IsOpenInEditor: 1
+    NewGroupItem:
+      Name: 
+      GameObjectVariants:
+      - {fileID: 0}
+      Rotation:
+        Constant: {x: 0, y: 0, z: 0}
+        Min: {x: 0, y: 0, z: 0}
+        Max: {x: 0, y: 360, z: 0}
+        Mode: 1
+      Scale:
+        Mode: 3
+        MinScale: {x: 1, y: 1, z: 1}
+        MaxScale: {x: 1, y: 1, z: 1}
+        UnitformScaling: 1
+      AdvancedOptions:
+        AllowPlacementCollisions: 0
+        MultiplyPrefabScale: 1
+        UsePrefabRotation: 0
+        UsePrefabHeight: 1
+        UseIndividualGroundHeight: 1
+        AllowCollision: 0
+        SpacingFactor: 1
+        RotationOffset: {x: 0, y: 0, z: 0}
+        NameType: 0
+      IsAdvancesOptionsOpenInEditor: 0
+      IsVariantsOpen: 0
+      VariantsScroll: {x: 0, y: 0}
+      IsOpenInEditor: 0
+    IsOpenInEditor: 0
