@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add5c179-d643-4781-8833-cd37714ef58b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArcadeRace_YG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArcadeRace_YG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/FreeRiding.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/FreeRiding.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Loading.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Loading.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/YesevaOne-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/YesevaOne-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/BuildLogYG.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/BuildLogYG.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +103,7 @@
       <workItem from="1749755884225" duration="2333000" />
       <workItem from="1749795651335" duration="7585000" />
       <workItem from="1749806003235" duration="5080000" />
+      <workItem from="1749894054945" duration="33000" />
     </task>
     <servers />
   </component>
@@ -109,7 +112,6 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
-    <option name="hasUnityReference" value="true" />
     <option name="unityProject" value="true" />
     <option name="unityProjectFolder" value="true" />
   </component>

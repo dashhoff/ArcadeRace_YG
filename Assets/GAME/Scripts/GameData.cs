@@ -6,7 +6,9 @@ public class GameData : MonoBehaviour
 {
     public static GameData Instance;
 
-    public int Track;
+    public int CurrentTrack;
+
+    public int CurrentCar;
 
     public int TimeOfDay;
     
@@ -23,7 +25,12 @@ public class GameData : MonoBehaviour
     
     public void SetTrack(int value)
     {
-        Track = value;
+        CurrentTrack = value;
+    }
+    
+    public void SetCar(int value)
+    {
+        CurrentCar = value;
     }
 
     public void SetTimeOfDay(int value)

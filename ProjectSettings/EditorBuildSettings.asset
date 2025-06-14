@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/GAME/Scenes/MenuAutumm.unity
     guid: 9d81914945299d741afe83b647c6e03f
   - enabled: 1
-    path: Assets/GAME/Scenes/FreeRiding.unity
+    path: Assets/GAME/Scenes/Autumm.unity
     guid: 44cf1174e77cd7e4f95a263911890f47
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
