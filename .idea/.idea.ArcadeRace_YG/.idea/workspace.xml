@@ -6,14 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="add5c179-d643-4781-8833-cd37714ef58b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ArcadeRace_YG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArcadeRace_YG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuCar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuCar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuCarManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuCarManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuTracks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuTracks.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/UI/UITrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/UI/UITrack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/YesevaOne-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/YesevaOne-Regular SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/YandexGame/WorkingData/Editor/SavesEditorYG.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/WorkingData/Editor/SavesEditorYG.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/WorkingData/SavesYG.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/WorkingData/SavesYG.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +103,7 @@
       <workItem from="1749806003235" duration="5080000" />
       <workItem from="1749894028437" duration="16188000" />
       <workItem from="1749981188180" duration="8396000" />
-      <workItem from="1749994554054" duration="5180000" />
+      <workItem from="1749994554054" duration="6703000" />
     </task>
     <servers />
   </component>
