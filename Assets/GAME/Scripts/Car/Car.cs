@@ -4,7 +4,7 @@ using UnityEngine;
 public class Car : MonoBehaviour
 {
     [SerializeField] private Wheel[] _wheels;
-    [SerializeField] private Wheel[] _drivingWheels;
+    [SerializeField] public Wheel[] DrivingWheels;
     [SerializeField] private Wheel[] _frontWheels;
     
     [SerializeField] private Rigidbody _rb;
@@ -47,9 +47,9 @@ public class Car : MonoBehaviour
             _wheels[i].SetDriveTire(false);
         }
 
-        for (int i = 0; i < _drivingWheels.Length; i++)
+        for (int i = 0; i < DrivingWheels.Length; i++)
         {
-            _drivingWheels[i].SetDriveTire(true);
+            DrivingWheels[i].SetDriveTire(true);
         }
     }
 
@@ -60,9 +60,9 @@ public class Car : MonoBehaviour
 
     public void Acceleration(float torque)
     {
-        for (int i = 0; i < _drivingWheels.Length; i++)
+        for (int i = 0; i < DrivingWheels.Length; i++)
         {
-            _drivingWheels[i].Acceleration(torque);
+            DrivingWheels[i].Acceleration(torque);
         }
     }
     

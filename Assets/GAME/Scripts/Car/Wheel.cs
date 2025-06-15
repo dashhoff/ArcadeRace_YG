@@ -15,7 +15,7 @@ public class Wheel : MonoBehaviour
     [SerializeField] private float _tireModelRadius;
 
     [Header("Side slip")] 
-    [SerializeField] private bool _isDrifting = false;
+    public bool IsDrifting = false;
     [SerializeField] private AnimationCurve _sideSlipCurve;
     [SerializeField] private float _sideSlipStrength = 1;
     [SerializeField] private float _sideSlipDetection;
@@ -145,12 +145,12 @@ public class Wheel : MonoBehaviour
         
         if (slipRatio > 0.3f)
         {
-            _isDrifting = true;
+            IsDrifting = true;
             _sideSlipDetection = _sideSlipStrength * (1f - slipRatio);
         }
         else
         {
-            _isDrifting = false;
+            IsDrifting = false;
             _sideSlipDetection = 1f;
         }
     }
@@ -166,12 +166,12 @@ public class Wheel : MonoBehaviour
 
         if (Mathf.Abs(slipAngle) > 0.5f)
         {
-            _isDrifting = true;
+            IsDrifting = true;
             _sideSlipDetection = _sideSlipStrength * Mathf.Clamp01(Mathf.Abs(slipAngle) / 30f);
         }
         else
         {
-            _isDrifting = false;
+            IsDrifting = false;
             _sideSlipDetection = 1f;
         }
     }
