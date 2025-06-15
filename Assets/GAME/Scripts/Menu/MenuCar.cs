@@ -5,5 +5,7 @@ public class MenuCar : MonoBehaviour
     public GameObject Model;
     
     public string CarName;
-    public string CarInfo;
+    
+    public string CarRuInfo;
+    public string CarEnInfo;
 }

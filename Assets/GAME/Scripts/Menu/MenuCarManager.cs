@@ -2,6 +2,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 public class MenuCarManager : MonoBehaviour
 {
@@ -58,7 +59,11 @@ public class MenuCarManager : MonoBehaviour
     public void SetTextInfo()
     {
         _currentCarNameText.text = _cars[_currentCar].CarName;
-        _currentCarInfoText.text = _cars[_currentCar].CarInfo;
+        
+        if (YandexGame.lang == "ru")
+            _currentCarInfoText.text = _cars[_currentCar].CarRuInfo;
+        else
+            _currentCarInfoText.text = _cars[_currentCar].CarEnInfo;
     }
 
     public void TrySelectCar()

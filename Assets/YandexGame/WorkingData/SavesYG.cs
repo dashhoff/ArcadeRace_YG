@@ -22,8 +22,8 @@ namespace YG
 
         public int Money = 1000;
 
-        public int[] OpenTracks = {1, 0, 0 ,0 ,0};
-        public int[] OpenCars = {1, 0, 0 ,0 ,0};
+        public int[] OpenTracks = {1, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        public int[] OpenCars = {1, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         
         public float GeneralVolume = 1;
         public float EnviromentVolume = 1;
