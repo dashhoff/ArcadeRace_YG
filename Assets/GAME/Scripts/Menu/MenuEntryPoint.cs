@@ -19,6 +19,8 @@ public class MenuEntryPoint : MonoBehaviour
 
     public void Init()
     {
+        ScreenFader.Instance.FadeOut();
+        
         _settingsSaves.Init();
         _gameSaves.Init();
         

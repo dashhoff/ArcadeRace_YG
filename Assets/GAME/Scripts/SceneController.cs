@@ -16,12 +16,12 @@ public class SceneController : MonoBehaviour
 
     public void LoadLevel(int id)
     {
-        SceneManager.LoadScene(id);
+        ScreenFader.Instance.FadeIn(() => { SceneManager.LoadScene(id); });
     }
 
     public void LoadLevel(string name)
     {
-        SceneManager.LoadScene(name);
+        ScreenFader.Instance.FadeIn(() => { SceneManager.LoadScene(name); });
     }
 
     public void RestartLevel()

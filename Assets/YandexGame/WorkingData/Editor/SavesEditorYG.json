@@ -1,5 +1,5 @@
 {
-    "idSave": 34,
+    "idSave": 341,
     "isFirstSession": false,
     "language": "ru",
     "promptDone": false,
@@ -18,10 +18,10 @@
         0,
         0
     ],
-    "GeneralVolume": 1.0,
-    "EnviromentVolume": 1.0,
-    "CarVolume": 1.0,
+    "GeneralVolume": 0.589245617389679,
+    "EnviromentVolume": 0.5639076232910156,
+    "CarVolume": 0.6880630254745483,
     "UIVolume": 1.0,
     "MusicVolume": 1.0,
-    "GraphicsPreset": 3
+    "GraphicsPreset": 4
 }

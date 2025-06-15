@@ -12,6 +12,8 @@ public class GameEntryPoint : MonoBehaviour
 
     public void Init()
     {
+        ScreenFader.Instance.FadeOut();
+        
         _gameTracks.Init();
     }
 }

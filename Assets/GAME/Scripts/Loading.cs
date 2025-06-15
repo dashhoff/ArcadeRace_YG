@@ -19,7 +19,7 @@ public class Loading : MonoBehaviour
 
     public IEnumerator LoadingAnimCor()
     {
-        AsyncOperation loadingScene = SceneManager.LoadSceneAsync("MenuAutumm");
+        AsyncOperation loadingScene = SceneManager.LoadSceneAsync("Menu");
         loadingScene.allowSceneActivation = false;
             
         _downTextAnim.Play();
@@ -31,14 +31,14 @@ public class Loading : MonoBehaviour
             .Append(backRectTransform.DOAnchorPosX(backRectTransform.anchoredPosition.x + 1000, 25f))
             .SetEase(Ease.Linear);
 
-        yield return new WaitForSecondsRealtime(5f);
+        yield return new WaitForSecondsRealtime(3f);
 
         while (loadingScene.progress < 0.9f)
         {
             yield return null;
         }
         
-        loadingScene.allowSceneActivation = true;
+        ScreenFader.Instance.FadeIn(() => { loadingScene.allowSceneActivation = true; });
 
         //SceneManager.LoadScene("MenuAutumm");
     }
