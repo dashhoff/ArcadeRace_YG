@@ -6,9 +6,62 @@
   <component name="ChangeListManager">
     <list default="true" id="add5c179-d643-4781-8833-cd37714ef58b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ArcadeRace_YG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArcadeRace_YG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Car/Car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/MenuAutumm.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuEntryPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuEntryPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuGraphics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuGraphics.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuTracks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuTracks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/SettingsSaves.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/SettingsSaves.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/UI/UITrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/UI/UITrack.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/YesevaOne-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/YesevaOne-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Content.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Content/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Content/Materials/DebugViewing.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Content/Materials/DebugViewing.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Content/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Content/Textures/DebugViewing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Content/Textures/DebugViewing.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Content/Textures/DebugViewingRender.renderTexture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Content/Textures/DebugViewingRender.renderTexture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scenes/ExampleYG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scenes/ExampleYG.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scenes/ExampleYG.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scenes/ExampleYG/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scenes/ExampleYG/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scenes/ExampleYG_Two.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scenes/ExampleYG_Two.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scenes/ExampleYG_Two.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scenes/ExampleYG_Two/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scenes/ExampleYG_Two/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scenes/LightingSettingsYGExample.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scenes/LightingSettingsYGExample.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/DebugViewing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/DebugViewing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/GetPlayerData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/GetPlayerData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/InitExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/InitExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/LanguageExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/LanguageExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/NewResultLBExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/NewResultLBExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/OpenAuthorizationDialog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/OpenAuthorizationDialog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/ReceivingPurchaseExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/ReceivingPurchaseExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/RewardedAd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/RewardedAd.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/SaverTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/SaverTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/SwitchSceneTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/SwitchSceneTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/YandexMetricaExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/Example/Scripts/YandexMetricaExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/WorkingData/SavesYG.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/WorkingData/SavesYG.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +73,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/EventBus.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuGraphics.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuCar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Menu/MenuTracks.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/TranslateText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/UI/UITrack.cs" root0="FORCE_HIGHLIGHTING" />
@@ -101,7 +154,7 @@
       <workItem from="1749795651335" duration="7585000" />
       <workItem from="1749806003235" duration="5080000" />
       <workItem from="1749894028437" duration="16188000" />
-      <workItem from="1749981188180" duration="840000" />
+      <workItem from="1749981188180" duration="5543000" />
     </task>
     <servers />
   </component>

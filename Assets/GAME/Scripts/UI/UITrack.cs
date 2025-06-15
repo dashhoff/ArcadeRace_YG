@@ -23,6 +23,8 @@ public class UITrack : MonoBehaviour
 
     public void SetLockInfo()
     {
+        
+        
         if (Locked)
             _lockImage.gameObject.SetActive(true);
         else

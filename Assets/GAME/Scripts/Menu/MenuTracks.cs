@@ -16,6 +16,6 @@ public class MenuTracks : MonoBehaviour
 
     public void OnTrackClick(int id)
     {
-        
+        GameData.Instance.CurrentTrack = id;
     }
 }

@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using YG;
 
 public class SettingsSaves : MonoBehaviour
 {
@@ -14,8 +15,6 @@ public class SettingsSaves : MonoBehaviour
     
     [Header("Graphics")]
     public int GraphicsPreset;
-    public int EnviromentPreset;
-    //public int AntiAliasingPreset;
     
     private void Awake()
     {
@@ -29,14 +28,26 @@ public class SettingsSaves : MonoBehaviour
     
     public void YGLoad()
     {
-        GeneralVolume = PlayerPrefs.GetFloat("GeneralVolume", 1);
-        EnviromentVolume = PlayerPrefs.GetFloat("EnviromentVolume", 1);
-        CarVolume = PlayerPrefs.GetFloat("CarVolume", 1);
-        UIVolume = PlayerPrefs.GetFloat("UIVolume", 1);
-        MusicVolume = PlayerPrefs.GetFloat("MusicVolume", 1);
+        GeneralVolume = YandexGame.savesData.GeneralVolume;
+        EnviromentVolume = YandexGame.savesData.EnviromentVolume;
+        CarVolume = YandexGame.savesData.CarVolume;
+        UIVolume = YandexGame.savesData.UIVolume;
+        MusicVolume = YandexGame.savesData.MusicVolume;
+
+        GraphicsPreset = YandexGame.savesData.GraphicsPreset;
+    }
+    
+    public void YGSave()
+    {
+        YandexGame.savesData.GeneralVolume = GeneralVolume;
+        YandexGame.savesData.EnviromentVolume = EnviromentVolume;
+        YandexGame.savesData.CarVolume = CarVolume;
+        YandexGame.savesData.UIVolume = UIVolume;
+        YandexGame.savesData.MusicVolume = MusicVolume;
         
-        GraphicsPreset = PlayerPrefs.GetInt("GraphicsPreset", 1);
-        //AntiAliasingPreset = PlayerPrefs.GetInt("AntiAliasingPreset", 0);
+        YandexGame.savesData.GraphicsPreset = GraphicsPreset;
+        
+        YandexGame.SaveProgress();
     }
 
     public void Load()
@@ -50,20 +61,6 @@ public class SettingsSaves : MonoBehaviour
         GraphicsPreset = PlayerPrefs.GetInt("GraphicsPreset", 1);
     }
     
-    public void YGSave()
-    {
-        PlayerPrefs.SetFloat("GeneralVolume", GeneralVolume);
-        PlayerPrefs.SetFloat("EnviromentVolume", EnviromentVolume);
-        PlayerPrefs.SetFloat("CarVolume", CarVolume);
-        PlayerPrefs.SetFloat("UIVolume", UIVolume);
-        PlayerPrefs.SetFloat("MusicVolume", MusicVolume);
-        
-        PlayerPrefs.SetInt("GraphicsPreset", GraphicsPreset);
-        //PlayerPrefs.SetInt("AntiAliasingPreset", AntiAliasingPreset);
-        
-        PlayerPrefs.Save();
-    }
-    
     public void Save()
     {
         PlayerPrefs.SetFloat("GeneralVolume", GeneralVolume);
@@ -73,7 +70,6 @@ public class SettingsSaves : MonoBehaviour
         PlayerPrefs.SetFloat("MusicVolume", MusicVolume);
         
         PlayerPrefs.SetInt("GraphicsPreset", GraphicsPreset);
-        //PlayerPrefs.SetInt("AntiAliasingPreset", AntiAliasingPreset);
         
         PlayerPrefs.Save();
     }
